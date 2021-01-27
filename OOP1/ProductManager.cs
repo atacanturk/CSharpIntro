@@ -9,12 +9,12 @@ namespace OOP1
         //encapsulation
         public void Add(Product product)
         {
-            Console.WriteLine(product.ProductName + " eklendi.");
+            Console.WriteLine(product.ProductName + " added.");
         }
 
         public void Update(Product product)
         {
-            Console.WriteLine(product.ProductName + " güncellendi.");
+            Console.WriteLine(product.ProductName + " updated.");
         }
     }
 }
